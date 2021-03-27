@@ -1,4 +1,8 @@
 # banking - Simple Banking System
+A simple banking system project that 
+* is able to create credit card numbers that pass the Luhn's algorithm for the last digit
+* stores credit card accounts into a database using __sqlite3__ python module
+* after user 'log into' their account they are able add to their balance or transfer balance to some other card that is present in the database
 
 To learn more about this project, please visit [Hyperskill Website - Simple Banking System](https://hyperskill.org/projects/109)
 # How to run
