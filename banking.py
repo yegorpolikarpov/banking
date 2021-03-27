@@ -73,7 +73,7 @@ class Menu:
         card_number = input("Enter your card number: \n")
         pin = input("Enter your PIN\n")
         # check if there is such combination in the database
-        cur.execute(f"SELECT * FROM card WHERE number='{card_number}' AND pin='{pin}'")  # AND pin='{pin}'    'number'='{card_number}
+        cur.execute(f"SELECT * FROM card WHERE number='{card_number}' AND pin='{pin}'")
         conn.commit()
         temp = cur.fetchone()
         conn.commit()
