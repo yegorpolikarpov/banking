@@ -4,6 +4,7 @@ To learn more about this project, please visit [Hyperskill Website - Simple Bank
 # How to run
 Example:
 ```console
+>python banking.py
 1. Create an account
 2. Log into account
 0. Exit
